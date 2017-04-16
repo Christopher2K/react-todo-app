@@ -1,0 +1,8 @@
+.TodoItem {
+
+}
+
+.TodoItem.TodoItem__finished > .TodoItem-content > .Title,
+.TodoItem.TodoItem__finished > .TodoItem-content > .Body {
+  text-decoration: line-through;
+}
